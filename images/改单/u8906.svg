@@ -1,18 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="741px" height="12px" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="740px" height="198px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter x="45px" y="457px" width="741px" height="12px" filterUnits="userSpaceOnUse" id="filter136">
+    <mask fill="white" id="clip1372">
+      <path d="M 730 0  L 730 188  L 0 188  L 0 0  L 730 0  Z " fill-rule="evenodd" />
+    </mask>
+    <filter x="45px" y="412px" width="740px" height="198px" filterUnits="userSpaceOnUse" id="filter1373">
       <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
       <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
       <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
       <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
     </filter>
-    <g id="widget137">
-      <path d="M 0 0.5  L 730 0.5  " stroke-width="1" stroke="#797979" fill="none" transform="matrix(1 0 0 1 45 457 )" />
+    <g id="widget1374">
+      <image preserveAspectRatio="none" style="overflow:visible" width="730" height="188" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtoAAAC8CAYAAABG3AldAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARgSURBVHhe7dpBaiJRGEbRVxqVkLj/fWkERy4kECo8wYaedTre2TnwDQpqAZeft9xut/Xz83PMbTabsSzLAAAAfm629NzhcBjL9Xpdv76+xtzLy8t9jx8AAIB/92jo/X4/ltPptM6PdV3v5T3nsg0AAD/3aOjdbjeW8/m8brfbMff6+nrfDO05AADg52ZbLx8fH+s8bc+9v7+Pt7c3oQ0AAL9wf4p9uVz+Cu05oQ0AAP/vT2jPd9kztI/Ho9AGAIAnUNMAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABAQ2gAAEBDaAAAQENoAABDYLMsyHgMAAJ7jHtoAAMBzbQ6Hw9jv92O3243tduu6DQAAvzbGN+oVK3iCy8mBAAAAAElFTkSuQmCC" x="0px" y="0px" transform="matrix(1 0 0 1 45 412 )" />
+      <path d="M 730 0  L 730 188  L 0 188  L 0 0  L 730 0  Z " stroke-width="2" stroke="#797979" fill="none" transform="matrix(1 0 0 1 45 412 )" mask="url(#clip1372)" />
     </g>
   </defs>
-  <g transform="matrix(1 0 0 1 -45 -457 )">
-    <use xlink:href="#widget137" filter="url(#filter136)" />
-    <use xlink:href="#widget137" />
+  <g transform="matrix(1 0 0 1 -45 -412 )">
+    <use xlink:href="#widget1374" filter="url(#filter1373)" />
+    <use xlink:href="#widget1374" />
   </g>
 </svg>

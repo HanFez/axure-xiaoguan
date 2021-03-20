@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="122px" height="26px" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="187px" height="26px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter x="85px" y="248px" width="122px" height="26px" filterUnits="userSpaceOnUse" id="filter76">
+    <filter x="280px" y="176px" width="187px" height="26px" filterUnits="userSpaceOnUse" id="filter1313">
       <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
       <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
       <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
       <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
     </filter>
-    <g id="widget77">
-      <image preserveAspectRatio="none" style="overflow:visible" width="112" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHAAAAAQCAYAAADOFPsRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACGSURBVFhH7ZlbCsMwEMS2vURD7n/J1nGTHchA6Qk8IIGw/4Uf2I+qerUan+23PVtYG3WSQ+G2VtHkvIW1ca9DAXdN/oS18S45vQLHjwRcHwc8fQa+20/riBCCLi4QDAHDIWA4BAyHgOEQMBwChkPAcBTQD9gWgnBAfiFCUUA9nekHgohxVF2U5icoZR3X+gAAAABJRU5ErkJggg==" x="85px" y="248px" />
+    <g id="widget1314">
+      <image preserveAspectRatio="none" style="overflow:visible" width="177" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALEAAAAQCAYAAABZaZ6OAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACOSURBVGhD7drbCYRAEETR1iQU80/St12NDYZgwT1QCPt9kZGdISKmnJ5j7srdOeDPutFDU7xzTj9q5zvAQfWqiJdcFf0Z4KBODv0m3j8jYrioE0SfidfcluuQARv6mAOsETHsETHsETHsETHsETHsETHsETHsKeK+9NMDrHTE3F6DLUWsv5l1G4iQYSjiAR7+JilXwCfDAAAAAElFTkSuQmCC" x="280px" y="176px" />
     </g>
   </defs>
-  <g transform="matrix(1 0 0 1 -85 -248 )">
-    <use xlink:href="#widget77" filter="url(#filter76)" />
-    <use xlink:href="#widget77" />
+  <g transform="matrix(1 0 0 1 -280 -176 )">
+    <use xlink:href="#widget1314" filter="url(#filter1313)" />
+    <use xlink:href="#widget1314" />
   </g>
 </svg>

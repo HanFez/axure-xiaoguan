@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="825px" height="173px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip1227">
+      <path d="M 814 0  L 814 162  L 0 162  L 0 0  L 814 0  Z " fill-rule="evenodd" />
+    </mask>
+    <filter x="45px" y="123px" width="825px" height="173px" filterUnits="userSpaceOnUse" id="filter1228">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget1229">
+      <image preserveAspectRatio="none" style="overflow:visible" width="814" height="162" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAy4AAACiCAYAAACnKZmVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQUSURBVHhe7dtLiipBFEXRSL8U6vznZZVgy4EUSBYh+OCNwN1YC04jISewucTyeDzW39/fMbfZbMayLAMAAODTZpvMHY/Hsdzv9/X5fI653W732vsHAACAT3k3yeFwGMv1el3nx7qur5KZc3kBAAA+7d0k+/1+LN/f3+t2ux1zX19fr81wmQMAAPi02SrLz8/POk8vc+fzeZxOJ+ECAABkvJ6y3G63/8JlTrgAAAAV/8JlvmuZ4XK5XIQLAACQo04AAIA84QIAAOQJFwAAIE+4AAAAecIFAADIEy4AAECecAEAAPKECwAAkCdcAACAPOECAADkCRcAACBPuAAAAHnCBQAAyBMuAABAnnABAADyhAsAAJAnXAAAgDzhAgAA5AkXAAAgT7gAAAB5wgUAAMgTLgAAQJ5wAQAA8oQLAACQJ1wAAIA84QIAAOQJFwAAIE+4AAAAecIFAADIEy4AAECecAEAAPKECwAAkCdcAACAPOECAADkCRcAACBPuAAAAHnCBQAAyBMuAABAnnABAADyhAsAAJAnXAAAgDzhAgAA5AkXAAAgT7gAAAB5wgUAAMgTLgAAQJ5wAQAA8oQLAACQJ1wAAIA84QIAAOQJFwAAIE+4AAAAecIFAADIEy4AAECecAEAAPKECwAAkCdcAACAPOECAADkCRcAACBPuAAAAHnCBQAAyBMuAABAnnABAADyhAsAAJAnXAAAgDzhAgAA5AkXAAAgT7gAAAB5wgUAAMgTLgAAQJ5wAQAA8oQLAACQJ1wAAIA84QIAAOQJFwAAIE+4AAAAecIFAADIEy4AAECecAEAAPKECwAAkCdcAACAPOECAADkCRcAACBPuAAAAHnCBQAAyBMuAABAnnABAADyhAsAAJAnXAAAgDzhAgAA5AkXAAAgT7gAAAB5wgUAAMgTLgAAQJ5wAQAA8oQLAACQJ1wAAIA84QIAAOQJFwAAIE+4AAAAecIFAADIEy4AAECecAEAAPKECwAAkCdcAACAPOECAADkCRcAACBPuAAAAHnCBQAAyBMuAABAnnABAADyhAsAAJAnXAAAgDzhAgAA5AkXAAAgT7gAAAB5wgUAAMgTLgAAQJ5wAQAA8oQLAACQJ1wAAIA84QIAAOQJFwAAIE+4AAAAecIFAADIEy4AAECecAEAAPKECwAAkCdcAACAPOECAADkCRcAACBPuAAAAHnCBQAAyBMuAABAnnABAADyhAsAAJAnXAAAgDzhAgAA5AkXAAAgT7gAAAB5wgUAAMgTLgAAQJ5wAQAA8oQLAACQJ1wAAIA84QIAAOQJFwAAIE+4AAAAecIFAADIEy4AAECecAEAAPKECwAAkLdZlmW8BwAAUPQKFwAAgLLN8Xgch8Nh7Pf7sd1uXV8AAICYMf4APuMrRADZOuQAAAAASUVORK5CYII=" x="0px" y="0px" transform="matrix(1 0 0 1 45 123 )" />
+      <path d="M 814 0  L 814 162  L 0 162  L 0 0  L 814 0  Z " stroke-width="2" stroke="#797979" fill="none" transform="matrix(1 0 0 1 45 123 )" mask="url(#clip1227)" />
+      <path d="M 0 49.5  L 814 49.5  " stroke-width="1" stroke="#797979" fill="none" transform="matrix(1 0 0 1 45 123 )" mask="url(#clip1227)" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -45 -123 )">
+    <use xlink:href="#widget1229" filter="url(#filter1228)" />
+    <use xlink:href="#widget1229" />
+  </g>
+</svg>
