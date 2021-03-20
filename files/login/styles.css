@@ -515,6 +515,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  font-size:18px;
 }
 #u11 {
   border-width:0px;
@@ -524,6 +525,7 @@
   width:200px;
   height:40px;
   display:flex;
+  font-size:18px;
 }
 #u11 .text {
   position:absolute;
@@ -626,34 +628,34 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:180px;
-  height:36px;
+  width:200px;
+  height:35px;
   background:inherit;
-  background-color:rgba(255, 255, 255, 0);
+  background-color:rgba(215, 215, 215, 1);
   border:none;
   border-radius:5px;
-  -moz-box-shadow:-5px -5px 5px 0px rgba(0, 0, 0, 0.349019607843137) inset;
-  -webkit-box-shadow:-5px -5px 5px 0px rgba(0, 0, 0, 0.349019607843137) inset;
-  box-shadow:-5px -5px 5px 0px rgba(0, 0, 0, 0.349019607843137) inset;
+  -moz-box-shadow:1px 1px 10px rgba(0, 0, 0, 0.349019607843137), 0px 0px 5px 0px rgba(0, 0, 0, 0.349019607843137) inset;
+  -webkit-box-shadow:1px 1px 10px rgba(0, 0, 0, 0.349019607843137), 0px 0px 5px 0px rgba(0, 0, 0, 0.349019607843137) inset;
+  box-shadow:1px 1px 10px rgba(0, 0, 0, 0.349019607843137), 0px 0px 5px 0px rgba(0, 0, 0, 0.349019607843137) inset;
   font-family:'仿宋 Bold', '仿宋 Regular', '仿宋', sans-serif;
   font-weight:700;
   font-style:normal;
-  font-size:28px;
+  font-size:25px;
   color:#000000;
   text-align:center;
 }
 #u14 {
   border-width:0px;
   position:absolute;
-  left:445px;
-  top:289px;
-  width:180px;
-  height:36px;
+  left:660px;
+  top:314px;
+  width:200px;
+  height:35px;
   display:flex;
   font-family:'仿宋 Bold', '仿宋 Regular', '仿宋', sans-serif;
   font-weight:700;
   font-style:normal;
-  font-size:28px;
+  font-size:25px;
   color:#000000;
   text-align:center;
 }
