@@ -634,9 +634,9 @@
   background-color:rgba(215, 215, 215, 1);
   border:none;
   border-radius:5px;
-  -moz-box-shadow:1px 1px 10px rgba(0, 0, 0, 0.349019607843137), 0px 0px 5px 0px rgba(0, 0, 0, 0.349019607843137) inset;
-  -webkit-box-shadow:1px 1px 10px rgba(0, 0, 0, 0.349019607843137), 0px 0px 5px 0px rgba(0, 0, 0, 0.349019607843137) inset;
-  box-shadow:1px 1px 10px rgba(0, 0, 0, 0.349019607843137), 0px 0px 5px 0px rgba(0, 0, 0, 0.349019607843137) inset;
+  -moz-box-shadow:1px 1px 10px rgba(0, 0, 0, 0.349019607843137);
+  -webkit-box-shadow:1px 1px 10px rgba(0, 0, 0, 0.349019607843137);
+  box-shadow:1px 1px 10px rgba(0, 0, 0, 0.349019607843137);
   font-family:'仿宋 Bold', '仿宋 Regular', '仿宋', sans-serif;
   font-weight:700;
   font-style:normal;
